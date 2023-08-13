@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 200px;
+}
+
+#header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('static/img1.jpg') ;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#header h1{
+    font-size: 5rem;
+}
+
+#meme-div{
+    padding: 100px;
+}
+
+.meme-wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 0 100px;
+}
+
+.meme-wrapper img{
+    height: 400px;
+    box-shadow: 0px 0px 15px #333;
+}
+
+#prize-div{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('static/img2.jpg') ;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.podium-holder{
+    display: flex;
+    gap: 100px;
+}
+
+.prize{
+    text-align: center;
+}
+
+.prize img{
+    height: 150px;
+}
+
+.prize h3{
+    font-size: 2rem;
+}
+
+.two, .three{
+    margin-top: 100px;
+}
+
+#arena-div{
+    padding: 100px;
+}
+
+#arena-div img{
+    margin-top: 50px;
+}
+
+#rules-div{
+    padding: 100px;
+}
+
+#rules-div h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#rules-div hr{
+    margin: 25px 0;
+}
+
+ol{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+ol li{
+    margin-bottom: 10px;
+}
+
+ol ul{
+    padding: 10px 0;
+    margin-left: 10px;
+}
